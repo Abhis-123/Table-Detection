@@ -1,7 +1,9 @@
-# dirs 
+#vs code and train directories 
 yolo_cache/
 ./runs/train/
-
+.vscode/
+.ipynb_checkpoints/
+__pycache__/
 
 # General
 .DS_Store
