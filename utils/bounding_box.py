@@ -1,5 +1,55 @@
 import numpy as np
 
+MIN_WIDTH_BOX=5
+MIN_HEIGHT_BOX=5
+def sanitize_coord(coordinates, width, height):
+    """
+    points are: [[xmin, ymin], [xmax, ymin], [xmin, ymax], [xmax, ymax]]
+    it sanitize the coordinates that are extracted from a xml file. Valid for this dataset,
+    to be updated in case the dataset changes
+    Returning as dict: xmin, ymin, xmax, ymax
+    :param coordinates:[[xmin, ymin], [xmax, ymin], [xmin, ymax], [xmax, ymax]]
+    :return: dict with xmin, ymin, xmax, ymax coordinates
+    """
+    coordinates = coordinates.split()
+    points = []
+    for point in coordinates:
+        point = point.split(',')
+        points.append(point)
+    new_points = {
+        'xmin': points[0][0],
+        'ymin': points[0][1],
+        'xmax': points[3][0],
+        'ymax': points[3][1]
+    }
+    # logger.info(new_points)
+    # logger.info('width: {w}, height: {h}'.format(w=width, h=height))
+    # check if coords are inverted
+    if int(new_points['ymin']) > int(new_points['ymax']):
+        temp = int(new_points['ymin'])
+        new_points['ymin'] = int(new_points['ymax'])
+        new_points['ymax'] = temp
+    if int(new_points['xmin']) > int(new_points['xmax']):
+        temp = new_points['xmin']
+        new_points['xmin'] = int(new_points['xmax'])
+        new_points['xmax'] = temp
+    if int(new_points['ymin']) < 0:
+        new_points['ymin'] = 0
+    if int(new_points['xmin']) < 0:
+        new_points['xmin'] = 0
+    if int(new_points['ymax']) > height:
+        new_points['ymax'] = height
+    if int(new_points['xmax']) > width:
+        new_points['xmax'] = width
+    if (int(new_points['xmax']) - int(new_points['xmin'])) < MIN_WIDTH_BOX or \
+            (int(new_points['ymax']) - int(new_points['ymin'])) < MIN_HEIGHT_BOX:
+        new_points = None
+    return new_points
+
+
+
+
+
 def voc_to_yolo(image_height, image_width, bboxes):
     """
     voc  => [x1, y1, x2, y2]
