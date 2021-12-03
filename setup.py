@@ -116,7 +116,7 @@ if __name__ == '__main__':
             f.write(path+'\n')
     val_txt_path = os.path.abspath(os.path.join(training_directory, 'val.txt'))            
     with open(val_txt_path, 'w') as f:
-        for path in val.yolo_label_path.tolist():
+        for path in val.yolo_image_path.tolist():
             f.write(path+'\n')
 
     data = dict(
