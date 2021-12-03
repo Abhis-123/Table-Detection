@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>qoZsLI4.png</filename>
+	<path>D:\labelimgdata\images\qoZsLI4.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>823</width>
+		<height>574</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>w</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>39</xmin>
+			<ymin>268</ymin>
+			<xmax>770</xmax>
+			<ymax>476</ymax>
+		</bndbox>
+	</object>
+</annotation>

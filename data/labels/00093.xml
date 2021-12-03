@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>billing-invoice-for-legal-services.png</filename>
+	<path>D:\labelimgdata\images\billing-invoice-for-legal-services.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>620</width>
+		<height>803</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Table</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>35</xmin>
+			<ymin>362</ymin>
+			<xmax>582</xmax>
+			<ymax>684</ymax>
+		</bndbox>
+	</object>
+</annotation>

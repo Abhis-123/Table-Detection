@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>68747470733a2f2f692e6779617a6f2e636f6d2f37363866356235393739313136326534333266396364666131356630313762632e706e67.png</filename>
+	<path>D:\labelimgdata\images\68747470733a2f2f692e6779617a6f2e636f6d2f37363866356235393739313136326534333266396364666131356630313762632e706e67.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>812</width>
+		<height>1053</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Table</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>45</xmin>
+			<ymin>457</ymin>
+			<xmax>780</xmax>
+			<ymax>961</ymax>
+		</bndbox>
+	</object>
+</annotation>

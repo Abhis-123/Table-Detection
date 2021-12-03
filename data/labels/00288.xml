@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>invoice-freshbooks-graphic-design.jpg</filename>
+	<path>D:\labelimgdata\images\invoice-freshbooks-graphic-design.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1275</width>
+		<height>1650</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Table</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>78</xmin>
+			<ymin>710</ymin>
+			<xmax>1211</xmax>
+			<ymax>1192</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>invoice_html.png</filename>
+	<path>D:\labelimgdata\images\invoice_html.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>595</width>
+		<height>784</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Table</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>6</xmin>
+			<ymin>443</ymin>
+			<xmax>591</xmax>
+			<ymax>502</ymax>
+		</bndbox>
+	</object>
+</annotation>

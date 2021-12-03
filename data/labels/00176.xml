@@ -1,0 +1,38 @@
+<annotation>
+	<folder>car invoices</folder>
+	<filename>car79.png</filename>
+	<path>D:\labelimgdata\car invoices\car79.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>706</width>
+		<height>455</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Table</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>21</xmin>
+			<ymin>167</ymin>
+			<xmax>313</xmax>
+			<ymax>334</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Table</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>379</xmin>
+			<ymin>170</ymin>
+			<xmax>679</xmax>
+			<ymax>367</ymax>
+		</bndbox>
+	</object>
+</annotation>

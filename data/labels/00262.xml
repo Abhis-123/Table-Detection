@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>image-20200110105613725-ef825c60.png</filename>
+	<path>D:\labelimgdata\images\image-20200110105613725-ef825c60.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1091</width>
+		<height>1420</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Table</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>17</xmin>
+			<ymin>486</ymin>
+			<xmax>1089</xmax>
+			<ymax>914</ymax>
+		</bndbox>
+	</object>
+</annotation>
