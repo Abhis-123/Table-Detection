@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>Creative-Graphic-Design.jpeg</filename>
+	<path>D:\labelimgdata\images\Creative-Graphic-Design.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>464</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Table</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>66</xmin>
+			<ymin>153</ymin>
+			<xmax>393</xmax>
+			<ymax>405</ymax>
+		</bndbox>
+	</object>
+</annotation>

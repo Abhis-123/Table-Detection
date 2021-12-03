@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>file-flvS8wPDcg.png</filename>
+	<path>D:\labelimgdata\images\file-flvS8wPDcg.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>786</width>
+		<height>461</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Table</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>27</xmin>
+			<ymin>378</ymin>
+			<xmax>772</xmax>
+			<ymax>461</ymax>
+		</bndbox>
+	</object>
+</annotation>

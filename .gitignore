@@ -114,5 +114,5 @@ dmypy.json
 .pyre/
 
 # dirs 
-dataset/
+
 yolo_cache/

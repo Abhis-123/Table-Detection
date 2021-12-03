@@ -1,0 +1,26 @@
+<annotation>
+	<folder>car invoices</folder>
+	<filename>car4.png</filename>
+	<path>D:\labelimgdata\car invoices\car4.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1275</width>
+		<height>1650</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Table</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>41</xmin>
+			<ymin>430</ymin>
+			<xmax>1231</xmax>
+			<ymax>1492</ymax>
+		</bndbox>
+	</object>
+</annotation>

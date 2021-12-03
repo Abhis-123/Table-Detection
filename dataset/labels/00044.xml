@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>3481dac09204e431bf39d4f1cf20e14b-invoice-template-green-US-word2.jpg</filename>
+	<path>D:\labelimgdata\images\3481dac09204e431bf39d4f1cf20e14b-invoice-template-green-US-word2.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>900</width>
+		<height>1155</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Table</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>159</xmin>
+			<ymin>458</ymin>
+			<xmax>740</xmax>
+			<ymax>910</ymax>
+		</bndbox>
+	</object>
+</annotation>

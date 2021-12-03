@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images4</folder>
+	<filename>54.png</filename>
+	<path>D:\labelimgdata\images4\54.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>790</width>
+		<height>890</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Table</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>44</xmin>
+			<ymin>397</ymin>
+			<xmax>741</xmax>
+			<ymax>829</ymax>
+		</bndbox>
+	</object>
+</annotation>

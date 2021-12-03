@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>musician-Word-Invoice3-1.png</filename>
+	<path>D:\labelimgdata\images\musician-Word-Invoice3-1.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>458</width>
+		<height>591</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Table</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>27</xmin>
+			<ymin>197</ymin>
+			<xmax>433</xmax>
+			<ymax>484</ymax>
+		</bndbox>
+	</object>
+</annotation>

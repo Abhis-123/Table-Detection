@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images2</folder>
+	<filename>invoices-main-fda4376b75ad4854b4de4a0627673936204bc2c36f90e895f3926a97014f7f51.png</filename>
+	<path>D:\labelimgdata\images2\invoices-main-fda4376b75ad4854b4de4a0627673936204bc2c36f90e895f3926a97014f7f51.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>680</width>
+		<height>490</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Table</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>43</xmin>
+			<ymin>285</ymin>
+			<xmax>643</xmax>
+			<ymax>476</ymax>
+		</bndbox>
+	</object>
+</annotation>

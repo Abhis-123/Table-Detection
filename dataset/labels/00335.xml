@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>main-qimg-2df781de2ead100d285907b893af1c43.png</filename>
+	<path>D:\labelimgdata\images\main-qimg-2df781de2ead100d285907b893af1c43.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>602</width>
+		<height>851</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Table</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>15</xmin>
+			<ymin>303</ymin>
+			<xmax>586</xmax>
+			<ymax>366</ymax>
+		</bndbox>
+	</object>
+</annotation>

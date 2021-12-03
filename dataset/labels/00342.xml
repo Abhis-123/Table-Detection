@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images2</folder>
+	<filename>new.png</filename>
+	<path>D:\labelimgdata\images2\new.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1313</width>
+		<height>593</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Table</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2</xmin>
+			<ymin>338</ymin>
+			<xmax>918</xmax>
+			<ymax>548</ymax>
+		</bndbox>
+	</object>
+</annotation>

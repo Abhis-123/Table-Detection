@@ -1,0 +1,26 @@
+<annotation verified="yes">
+	<folder>images</folder>
+	<filename>Output-Time-Export-to-QuickBooks.png</filename>
+	<path>D:\labelimgdata\images\Output-Time-Export-to-QuickBooks.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>467</width>
+		<height>360</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Table</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>26</xmin>
+			<ymin>169</ymin>
+			<xmax>443</xmax>
+			<ymax>313</ymax>
+		</bndbox>
+	</object>
+</annotation>
