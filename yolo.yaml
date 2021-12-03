@@ -1,6 +1,6 @@
 names:
 - table
 nc: 1
-path: c:\Users\Abhishek pandir\ML\Table Detection
-train: c:\Users\Abhishek pandir\ML\Table Detection\yolo_cache\train.txt
-val: c:\Users\Abhishek pandir\ML\Table Detection\yolo_cache\val.txt
+path: C:\Users\Abhishek pandir\ML\Table Detection
+train: C:\Users\Abhishek pandir\ML\Table Detection\yolo_cache\train.txt
+val: C:\Users\Abhishek pandir\ML\Table Detection\yolo_cache\val.txt
