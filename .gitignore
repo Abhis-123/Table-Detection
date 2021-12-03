@@ -85,4 +85,4 @@ fabric.properties
 
 # dirs 
 yolo_cache/
-runs/train/
+/runs/train/
