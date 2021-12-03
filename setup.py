@@ -6,15 +6,15 @@ import os
 import shutil
 import xml.etree.ElementTree as ET
 import xmltodict
-from utils.bounding_box import voc_to_yolo
+from helper.bounding_box import voc_to_yolo
 import yaml
 
 
 def get_paths(row):
     image_name = row["image_name"]
     id         = image_name.split(".")[0]
-    image_path = os.path.abspath(f"./data/images/{id}.PNG")
-    label_path = os.path.abspath(f"./data/labels/{id}.xml")
+    image_path = os.path.abspath(f"./dataset/images/{id}.PNG")
+    label_path = os.path.abspath(f"./dataset/labels/{id}.xml")
     row["image_path"] = image_path
     row["label_path"] = label_path
     row['id'] = id
@@ -53,7 +53,7 @@ def parse_xml_dict(row):
 
 if __name__ == '__main__':
 
-    images = os.listdir("data/images/")
+    images = os.listdir("dataset/images/")
     df = pd.DataFrame(images, columns =['image_name'])
     df = df.apply(get_paths, axis = 1) 
 
